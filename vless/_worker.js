@@ -1,18 +1,19 @@
 import { connect } from "cloudflare:sockets";
 
-const proxyListURL = 'https://raw.githubusercontent.com/ujangkasep2504/psychic/refs/heads/main/proxyList.txt';
-const namaWeb = 'SandalKaret'
+const proxyListURL = 'https://raw.githubusercontent.com/ngalagurame/msubproxy/refs/heads/main/proxyList.txt';
+const namaWeb = 'SandalCapit'
 const telegramku = 'xxx'
 const wildcards = [
-  'ava.game.naver.com',
-  'quiz.int.vidio.com',
-  'business.blibli.com',
+   'ava.game.naver.com',
+   'quiz.int.vidio.com',
+   'business.blibli.com',
    'graph.instagram.com',
    'quiz.int.vidio.com',
    'live.iflix.com',
    'support.zoom.us',
    'blog.webex.com',
    'investors.spotify.com',
+   'investor.fb.com', 
    'investor.fb.com', 
    'cache.netflix.com',
    'zaintest.vuclip.com',
@@ -352,7 +353,7 @@ export default {
 <body>
   <!-- Header -->
   <header>
-    <h1>GeoVPN</h1>
+    <h1>SaCa</h1>
     <p>Your Ultimate VPN Solution for Secure and Fast Internet</p>
   </header>
 
@@ -383,7 +384,7 @@ export default {
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2025 GeoVPN | <a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-of-service">Terms of Service</a></p>
+    <p>&copy; 2025 SaCa | <a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-of-service">Terms of Service</a></p>
   </footer>
 </body>
 </html>
@@ -564,7 +565,7 @@ async function handleSubRequest(hostnem) {
 <body>
     <div class="container">
         <div class="card">
-            <h1 class="title">Geo Project</h1>
+            <h1 class="title">SaCa</h1>
             <form id="subLinkForm">
                 <div class="form-group">
                     <label for="app">Aplikasi</label>
@@ -2843,7 +2844,7 @@ async function generateSurfboardSub(type, bug, geo81, tls, country = null, limit
 ${ispName} = trojan, ${bug}, 443, password = ${UUIDS}, udp-relay = true, skip-cert-verify = true, sni = ${geo81}, ws = true, ws-path = /${proxyHost}:${proxyPort}, ws-headers = Host:"${geo81}"\n`;
     }
   }
-  return `#### BY : GEO PROJECT #### 
+  return `#### BY : SaCa #### 
 
 [General]
 dns-server = system, 108.137.44.39, 108.137.44.9, puredns.org:853
@@ -3333,7 +3334,7 @@ async function generateHusiSub(type, bug, geo81, tls, country = null, limit = nu
     },`;
     }
   }
-  return `#### BY : GEO PROJECT #### 
+  return `#### BY : SaCa #### 
 
 {
   "dns": {
@@ -3661,7 +3662,7 @@ async function generateSingboxSub(type, bug, geo81, tls, country = null, limit =
     },`;
     }
   }
-  return `#### BY : GEO PROJECT #### 
+  return `#### BY : SaCa #### 
 
 {
   "log": {
@@ -3963,7 +3964,7 @@ async function generateNekoboxSub(type, bug, geo81, tls, country = null, limit =
     },`;
     }
   }
-  return `#### BY : GEO PROJECT #### 
+  return `#### BY : SaCa #### 
 
 {
   "dns": {
