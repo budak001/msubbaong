@@ -69,5 +69,5 @@ jobs:
           echo "🚀 Deploying worker to Cloudflare..."
           wrangler deploy
         env:
-          CLOUDFLARE_API_TOKEN: "0w4Q7xRR5GEB7TmVmUB2iRP9l-DNFBoLAe23EGuy"
-          CLOUDFLARE_ACCOUNT_ID: "72d8e4fc9bd930779a42d2ae4835f834"
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
