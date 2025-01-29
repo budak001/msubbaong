@@ -576,6 +576,7 @@ async function handleSubRequest(hostnem) {
                         <option value="nekobox">NEKOBOX</option>
                         <option value="singbox">SINGBOX</option>
                         <option value="surfboard">SURFBOARD</option>
+                        <option value="husi">SINGBOX</option>
                     </select>
                 </div>
 
