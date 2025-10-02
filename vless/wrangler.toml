@@ -22,7 +22,7 @@ routes = [
 workers_dev = false
 
 [vars]
-CHECK_API_BASE = "https://api.jb8fd7grgd.workers.dev"
+CHECK_API_BASE = "https://ipcf.gpj.us.kg"
 #UUID = "%uuid%"
 #PROXYIP = "%proxyip%"
 #DNS_RESOLVER_URL = "https://dns.cloudflare.com/dns-query"
