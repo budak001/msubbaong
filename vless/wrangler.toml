@@ -22,7 +22,7 @@ routes = [
 workers_dev = false
 
 [vars]
-CHECK_API_BASE = "https://check.installer.us.kg"
+CHECK_API_BASE = "https://api.jb8fd7grgd.workers.dev"
 #UUID = "%uuid%"
 #PROXYIP = "%proxyip%"
 #DNS_RESOLVER_URL = "https://dns.cloudflare.com/dns-query"
